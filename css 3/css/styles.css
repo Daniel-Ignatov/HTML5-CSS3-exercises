@@ -1,0 +1,82 @@
+/* color propreties */
+/* color background-color */
+/* RGB RGBA(opacity, transperency )*/
+/* HEX values#RRGGBB */
+/* COOLERS.COM */
+#first{
+  color: rgba(0, 217, 255, 0.747);
+  background-color: rgb(0,0,0);
+}
+#second{
+  color: #ad1c1c6e;
+  background: rgba(0,0,0,.5);
+}
+#third{
+  color:#009900;
+  background: rgba(0,0,0,0.5);
+}
+body{
+  background: rgba(0,0,0,.8);
+}
+/* font-size, width, height ,pixels */
+h1{
+  font-size: 60px;
+  width: 192px;
+  height: 130px;
+  background: #009900;
+}
+/* percent value- relative */
+.outer{
+  border: solid black 10px;
+  width: 200px;
+  height: 100px;
+  background: white;
+}
+.inner{
+  width: 100%;
+  /*percentages depend on parent(outer) element*/
+  height: 50%;
+  background: red;
+}
+/* relative and absolute */
+/* em-relative depends on parent
+1em = 16px default browser style;
+1em = base value*/
+.relative{
+  font-size: 4em;
+  /* em multiplies div's 10 px */
+}
+.relativeToRoot{
+  font-size: 2rem;
+  /* rem multiplies root(html)'s 32 px */
+}
+.absolute{
+  font-size: 32px;
+}
+div{
+  font-size: 10px;
+}
+/* rem -relative depends on root(html)
+1 rem =16px default browser style */
+html{
+  font-size: 32px;
+}
+
+/* vh-view height= percent of the screen
+vw-view width= percent of the screen */
+/*
+/ *{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+} */
+.banner{
+  width: 50vw;
+  height: 50vh;
+  background: red;
+}
+.header{
+  width: 100vw;
+  height: 100vh;
+  background: rgb(80, 0, 0);
+}

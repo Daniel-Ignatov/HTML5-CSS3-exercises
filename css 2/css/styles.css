@@ -1,0 +1,52 @@
+/* #heading{
+  color: green;
+  background: black;
+}
+#footing{
+  color: red;
+  background: lightcoral;
+}
+.green{
+  color: green;
+}
+.red{
+  color: red;
+  background: grey;
+}
+#firstRed{
+  font-size: 40px;
+}
+.lowercase{
+  text-transform: lowercase;
+} */
+/* inheritance */
+
+/* body{
+  color: red;
+  font-family: monospace;
+  line-height: 1.5em;
+}
+.red{
+  color: red;
+  background: grey;
+}
+div{
+  border: 3px solid black;
+}
+.green{
+  color: green;
+}
+span{
+  text-transform: uppercase;
+} */ 
+
+/* last rule princile and specificity .. universal selector*/
+p{
+  color: blue;
+}
+.red{
+  color: red;
+}
+*{
+  color: red;
+}

@@ -1,0 +1,27 @@
+/* font-size font-family */
+body{
+  text-align: center;
+  font-style:oblique;
+  font-family:'Times New Roman', Times, serif;
+}
+.main{
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+/* GOOGLE FONTS */
+/* font-weight */
+/* font-style */
+/* text-align */
+/* text-indent */
+.heading{
+  text-align: right;
+}
+.one{
+  font-weight: 800;
+  font-style: inherit;
+  text-indent: 50px;
+  text-align: left
+}
+.two{
+  font-weight: 900;
+  font-style: normal;
+}

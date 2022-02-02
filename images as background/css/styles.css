@@ -1,0 +1,35 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+div {
+  height: 100vh;
+  color: green;
+  font-size: 60px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+.big-img {
+  background: url("./china-town-1115175.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+.small-img {
+  background: url("../images/photography-of-roadway-during-dusk-1034662.jpg");
+  background-size: cover;
+
+  background-repeat: no-repeat;
+  background-position: center;
+  background-attachment: fixed;
+}
+.folder-img {
+  background: url("../images/bird-s-eye-view-photography-of-high-rise-buildings-2304917.jpg");
+  background-size: cover;
+
+  background-repeat: no-repeat;
+  background-position: center;
+}

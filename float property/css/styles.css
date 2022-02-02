@@ -1,0 +1,20 @@
+.banner {
+  border: 5px solid black;
+  padding: 15px;
+  /* overflow: hidden; if the image is too big and leaves the div*/
+}
+img {
+  width: 100px;
+}
+.one {
+  float: right;
+  /* height: 1000px;  */
+}
+.two {
+  float: right;
+  margin-bottom: 20px;
+}
+p {
+  clear: both;
+  /* makes sure that the new line from p is respected */
+}

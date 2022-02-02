@@ -1,0 +1,39 @@
+body {
+  background: yellow;
+}
+.banner {
+  background: blue;
+}
+h1 {
+  color: white;
+  text-align: center;
+  text-decoration: underline;
+  text-transform: capitalize;
+}
+@media screen and (max-width: 576px) {
+  body {
+    background: blue;
+  }
+  .banner {
+    background: red;
+  }
+  h1 {
+    color: black;
+    font-size: 60px;
+    text-align: right;
+  }
+}
+@media screen and (max-width: 768px) {
+  /* this overwrites 576 but 576 still has active parameters ex"text align" */
+  body {
+    background: green;
+  }
+  .banner {
+    background: blue;
+  }
+  h1 {
+    color: red;
+    font-size: 60px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+  }
+}

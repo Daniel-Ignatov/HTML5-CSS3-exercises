@@ -1,0 +1,29 @@
+div h1 {
+  color: red;
+}
+div > h1 {
+  color: blue;
+}
+
+p::first-line {
+  font-weight: bold;
+}
+p::first-letter {
+  font-size: 30px;
+  font-style: italic;
+}
+p:hover {
+  /* font-size: 30px; */
+  color: red;
+}
+.header:hover {
+  background: blue;
+  color: white;
+  padding: 3px;
+}
+a:link {
+  color: aqua;
+}
+a:visited {
+  color: red;
+}

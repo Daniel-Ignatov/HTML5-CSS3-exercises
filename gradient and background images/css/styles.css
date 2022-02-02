@@ -1,0 +1,53 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+div {
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  font-size: 30px;
+  color: orange;
+}
+.banner {
+  background: url("../images/running-vehicles-on-road-3347244.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-attachment: fixed;
+}
+.header {
+  background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
+    url("../images/running-vehicles-on-road-3347244.jpg") center/cover fixed
+      no-repeat;
+  /* same as 
+      background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-attachment: fixed;*/
+}
+.colorzilla {
+  /* Permalink - use to edit and share this gradient: https://colorzilla.com/gradient-editor/#ff216b+0,e627f7+51,ff0000+100&0.9+0,1+100 */
+  background: -moz-linear-gradient(
+    top,
+    rgba(255, 33, 107, 0.9) 0%,
+    rgba(230, 39, 247, 0.95) 51%,
+    rgba(255, 0, 0, 1) 100%
+  ); /* FF3.6-15 */
+  background: -webkit-linear-gradient(
+    top,
+    rgba(255, 33, 107, 0.9) 0%,
+    rgba(230, 39, 247, 0.95) 51%,
+    rgba(255, 0, 0, 1) 100%
+  ); /* Chrome10-25,Safari5.1-6 */
+  background: linear-gradient(
+    to bottom,
+    rgba(255, 33, 107, 0.9) 0%,
+    rgba(230, 39, 247, 0.95) 51%,
+    rgba(255, 0, 0, 1) 100%
+  ); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#e6ff216b', endColorstr='#ff0000',GradientType=0 ); /* IE6-9 */
+}
